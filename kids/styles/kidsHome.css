@@ -1,0 +1,195 @@
+#title{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3px;
+    background-image: url('https://www.yoox.com/images/yoox80/banners/6944_2_Sale_Premium_K.png?634485886869569819#width=1380&height=67');
+}
+#title>div{
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+#title>p{
+    margin: 0px;
+    color: rgb(115, 111, 111);
+}
+#title>span{
+    gap: 15px;
+    text-decoration: underline;
+    margin: 0% 2% 0% 2%;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+   
+}
+
+#img{
+    width: 100%;
+    position: relative;
+}
+
+#title_2{
+   position: absolute;
+    bottom: -151px;
+    margin-bottom: 0%;
+    font-weight: 700;
+    left: 30px;
+    background-color: white;
+    padding: 1% 8% 2% 2%;
+}
+
+#title_2>div{  
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#title_2>p{ 
+    color: rgb(115, 111, 111);
+}
+
+#title_2>span{
+    gap: 15px;
+    text-decoration: underline;
+    margin: 0% 4% 0% 2%;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer; 
+}
+
+
+#girl{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+#girl>p{
+    padding-top: 7%;
+    font-size: 30px;
+    margin: 2%;
+    color: rgba(0, 0, 0, 0.609);
+    font-family: Montserrat,sans-serif;
+}
+#girl>span{
+    margin: 0%;
+    font-size: 30px;
+}
+
+#girlProduct{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+#girlProduct>div{
+    width: 90%;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+   
+}
+#girlProduct>div>img{
+    margin: 0%;
+    width: 80%;
+    height: 300px;
+}
+
+
+
+
+
+#boys{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+#boys>p{
+    padding-top: 7%;
+    font-size: 30px;
+    margin: 2%;
+    color: rgba(0, 0, 0, 0.609);
+    font-family: Montserrat,sans-serif;
+}
+#boys>span{
+    font-size: 30px;
+}
+
+#boyProduct{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+#boyProduct>div{
+    width: 90%;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+   
+}
+#boyProduct>div>img{
+    margin: 0%;
+    width: 80%;
+    height: 300px;
+}
+
+
+
+#designers{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+#designers>p{
+    padding-top: 7%;
+    font-size: 30px;
+    margin: 2%;
+    color: rgba(0, 0, 0, 0.609);
+    font-family: Montserrat,sans-serif;
+}
+#designers>span{
+    font-size: 30px;
+}
+
+#block{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+#block>div{
+    width: 90%;
+   height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+#block>div>h2{
+    font-size: 17px;
+    margin: 15px;
+
+}
+
+
+#block>div>h2:hover{
+    color: rgb(203, 191, 191);
+}
