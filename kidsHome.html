@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./kids/styles/navbar.css">
     <link rel="stylesheet" href="./kids/styles/kidsHome.css">
-  
+    <link rel="stylesheet" href="/components.sachin/navbar.css">
+    <link rel="stylesheet" href="/components.sachin/footer.css">
+
     <title>Kids</title>
 </head>
 <body>
+    <nav id="navbar"></nav>
     <nav id="my_navbar">
         <p><a href="/kids/boy/0_24Months.html">0-24 MONTHS</a></p>
         <p><a href="./kids/girl/2_8Year.html">3-8 YEARS</a></p>
@@ -91,9 +94,19 @@
             <h2>ROBERTO CAVALLI</h2>
         </div>
     </div>
-
+    <footer id="footer1"></footer>
 </body>
 </html>
+
+<script type="module">
+      import navbar from "/components.sachin/navbar.js";
+  let nana = document.getElementById('navbar');
+  nana.innerHTML=navbar();
+
+  import footer from "/components.sachin/footer.js";
+  let foot = document.getElementById('footer1');
+  foot.innerHTML=footer()
+</script>
 <script src="./kids/scripts/kideshome.js"></script>
 <!-- <script type="module">
    import nav from '../componeents/my_navbar.js';

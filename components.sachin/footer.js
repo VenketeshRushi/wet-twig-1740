@@ -1,4 +1,4 @@
-let footer=()=>{
+function footer(){
     return ` <div id="last">
     <div id="footer">
       <div>
@@ -90,4 +90,4 @@ let footer=()=>{
 <div>LEGAL AREA / PRIVACY POLICY</div>
       </div>`
 }
-export {footer}  
+export default footer; 
