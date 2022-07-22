@@ -13,6 +13,7 @@ const options1 = {
     .then((response) => response.json())
     .then((response) => {
       append(response.products);
+      filt(response.products);
     })
     .catch((err) => console.error(err));
 
@@ -72,23 +73,23 @@ const options1 = {
     window.location.href = "view.html";
   };
 
-  let price = document.getElementById("price");
-  price.addEventListener("click", () => {
-    const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '07d8be2f0amshfe7275d34ba65d5p17af07jsn876783647380',
-		'X-RapidAPI-Host': 'asos2.p.rapidapi.com'
-	}
-};
+//   let price = document.getElementById("price");
+//   price.addEventListener("click", () => {
+//     const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': '07d8be2f0amshfe7275d34ba65d5p17af07jsn876783647380',
+// 		'X-RapidAPI-Host': 'asos2.p.rapidapi.com'
+// 	}
+// };
 
-fetch('https://asos2.p.rapidapi.com/products/v2/list?store=US&offset=0&categoryId=4209&limit=48&country=US&sort=freshness&currency=USD&sizeSchema=US&lang=en-US', options)
-      .then((response) => response.json())
-      .then((response) => {
-        filt(response.products);
-      })
-      .catch((err) => console.error(err));
-  });
+// fetch('https://asos2.p.rapidapi.com/products/v2/list?store=US&offset=0&categoryId=4209&limit=48&country=US&sort=freshness&currency=USD&sizeSchema=US&lang=en-US', options)
+//       .then((response) => response.json())
+//       .then((response) => {
+//         filt(response.products);
+//       })
+//       .catch((err) => console.error(err));
+//   });
   let filt = (data) => {
     data=data.filter((el) => {
         let price = document.getElementById("price").value;
