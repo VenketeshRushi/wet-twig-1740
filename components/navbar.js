@@ -1,5 +1,5 @@
 let navbar=()=>{
-    return ` <div id="navbar">
+    return `
     <div id="uppernavbar">
         <div>
             <div><a href=""><span>UNITED STATES</span></a></div>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -27,8 +27,7 @@ let navbar=()=>{
 <div  id="cart"><a href=""><img 
     src="https://mpng.subpng.com/20190220/arq/kisspng-computer-icons-scalable-vector-graphics-shopping-b-bag-svg-png-icon-free-download-567486-onlinew-5c6d7568d93121.4013062715506773528896.jpg" alt=""></a></div>
 </div>
-    </div>
-   </div>`
+    </div>`
 }
 
 

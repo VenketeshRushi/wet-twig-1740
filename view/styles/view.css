@@ -1,0 +1,64 @@
+#view_list{
+    display: flex;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+#img{
+    width: 60%;
+}
+#img>img{
+    display: block;
+    margin: auto;
+}
+#content{
+    width: 40%;
+}
+#content>h4{
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+span{
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+span:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#size{
+    margin-top: 40px;
+}
+#content>p{
+    margin-top: 40px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#shopping_bag{
+    margin-top: 90px;
+    text-align: center;
+    background-color: rgb(37, 35, 35);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+#dream_box{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(243,243,243);
+    padding: 15px;
+    font-size: 15px;
+}
+#exter{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(255,254,148);
+    padding: 10px;
+    font-size: small;
+}
+#shopping_bag:hover{
+    color: rgb(82, 75, 75);
+}
+#dream_box:hover{
+    color: rgb(231, 213, 213);
+}
