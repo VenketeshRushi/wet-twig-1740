@@ -44,19 +44,52 @@ hr{
     gap: 15px;
 }
 #catgrie{
-    background-color: rgb(215, 211, 211);
-    width: 20%;
+
+    width:25%;
     padding: 2%;
 }
 #catgrie>select{
+    background-color: rgb(215, 211, 211);
     padding-top: 10px;
-    margin: 2%;
+    margin: 2px;
     font-size: 20px;
-    width: 90%;
+    width: 98%;
+    border: none;
 }
 
 #cantnaier>#product{
-    width: 110%;
-background-color: pink;
+   
+background-color: white;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 15px;
 }
 
+
+
+#randomImg{
+    width: 10%;
+    height: 25px;
+    margin-right: 7%;
+    margin-left: 7%;
+    cursor: pointer;
+}
+#nor{
+    height: 1px;
+}
+
+#product>div{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#product>div>img{
+    width: 97%;
+    height: 200px;
+    background-color: white;
+}
+
+#product>div>p{
+    margin: 0%;
+}
