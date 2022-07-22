@@ -68,7 +68,7 @@ const options1 = {
   };
 
   let viewdata = (el) => {
-    localStorage.setItem("view", JSON.stringify(el));
+    localStorage.setItem("cartproduct", JSON.stringify(el));
     window.location.href = "view.html";
   };
 
