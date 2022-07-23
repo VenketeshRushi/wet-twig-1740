@@ -3,6 +3,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./components.sachin/navbar.css">
+    <link rel="stylesheet" href="./components.sachin/footer.css">
     <title>Document</title>
   </head>
   <style>
@@ -105,6 +107,7 @@
     }
   </style>
   <body>
+    <nav id="navbar"></nav>
     <div id="nav">
       <div>
         <p>NEW ARRIVALS</p>
@@ -156,8 +159,19 @@
       </div>
       <div id="container"></div>
     </div>
+    <footer id="footer1"></footer>
   </body>
 </html>
+<script type="module">
+  import navbar from "/components.sachin/navbar.js";
+  let nana = document.getElementById("navbar");
+  nana.innerHTML = navbar();
+
+  import footer from "/components.sachin/footer.js";
+  let foot = document.getElementById("footer1");
+  foot.innerHTML = footer();
+</script>
+
 <script>
   let cartarr = JSON.parse(localStorage.getItem("cartproduct")) || [];
 
