@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kids/styles/navbar.css">
+    <link rel="stylesheet" href="./kids/styles/kidsHome.css">
+    <link rel="stylesheet" href="/components.sachin/navbar.css">
+    <link rel="stylesheet" href="/components.sachin/footer.css">
+
+    <title>Kids</title>
+</head>
+<body>
+    <nav id="navbar"></nav>
+    <nav id="my_navbar">
+        <p><a href="/kids/boy/0_24Months.html">0-24 MONTHS</a></p>
+        <p><a href="./kids/girl/2_8Year.html">3-8 YEARS</a></p>
+        <p><a href="./kids/boy/9_16year.html">9-16 YEARS</a></p>
+        <p><a href="./kids/girl/collabrations.html">COLLABORATIONS</a></p>
+    </nav>
+
+    <div>
+        <div id="title">
+            <div>SALE: UP TO 85% OFF</div>
+            <p>Need-now pieces from it designers</p>
+            <span><a href="./kids/girl/0_24Months.html">shop Girls</a></span>
+            <span><a href="./kids/boy/0_24Months.html">shop Boys</a></span>
+        </div>
+    </div>
+
+    <div id="image">
+        <img id="img" src="https://www.yoox.com/images/yoox80/banners/6821_1_safari_main_k.jpg?634485886869569819&impolicy=cropDefault&width=960&height=510" alt="">
+    </div>
+        <div id="title_2">
+            <div>INTO THE JUNGLE</div>
+            <p>Playful prints for every adventure</p>
+            <span><a href="./kids/girl/0_24Months.html">shop Girls</a></span>
+            <span><a href="./kids/boy/0_24Months.html">shop Boys</a></span>
+        </div>
+    
+    <div id="girl">
+        <p>NEW ARRIVALS GIRLS</p>
+        <span><a href="./kids/girl/0_24Months.html">view all</a></span>  
+    </div>
+    <div id="girlProduct"></div>
+
+    <div id="boys">
+        <p>NEW ARRIVALS BOYS</p>
+        <span><a href="./kids/boy/0_24Months.html">view all</a></span>  
+    </div>
+    <div id="boyProduct"></div>
+
+
+    <div id="designers">
+        <p>DESIGNERS</p>
+        <span><a href="./kids/girl/0_24Months.html">girls </a></span>  
+        <span><a href="./kids/boy/0_24Months.html">| boys</a></span> 
+    </div>
+    <div id="block">
+
+        <div>
+            <p>BABY 0-24 MONTHS</p>
+            <h2>DOLCE & GABBANA</h2>
+            <h2>KENZO</h2>
+            <h2>FENDI</h2>
+            <h2>RALPH LAUREN</h2>
+            <h2>PAUL SMITH</h2>
+            <h2>DSQUARED2</h2>
+            <h2>MONCLER</h2>
+            <h2>ROBERTO CAVALLI</h2>
+        </div>
+
+        <div>
+            <p>BABY 0-24 MONTHS</p>
+            <h2>DOLCE & GABBANA</h2>
+            <h2>KENZO</h2>
+            <h2>FENDI</h2>
+            <h2>RALPH LAUREN</h2>
+            <h2>PAUL SMITH</h2>
+            <h2>DSQUARED2</h2>
+            <h2>MONCLER</h2>
+            <h2>ROBERTO CAVALLI</h2>
+        </div>
+
+        <div>
+            <p>BABY 0-24 MONTHS</p>
+            <h2>DOLCE & GABBANA</h2>
+            <h2>KENZO</h2>
+            <h2>FENDI</h2>
+            <h2>RALPH LAUREN</h2>
+            <h2>PAUL SMITH</h2>
+            <h2>DSQUARED2</h2>
+            <h2>MONCLER</h2>
+            <h2>ROBERTO CAVALLI</h2>
+        </div>
+    </div>
+    <footer id="footer1"></footer>
+</body>
+</html>
+
+<script type="module">
+      import navbar from "/components.sachin/navbar.js";
+  let nana = document.getElementById('navbar');
+  nana.innerHTML=navbar();
+
+  import footer from "/components.sachin/footer.js";
+  let foot = document.getElementById('footer1');
+  foot.innerHTML=footer()
+</script>
+<script src="./kids/scripts/kideshome.js"></script>
+<!-- <script type="module">
+   import nav from '../componeents/my_navbar.js';
+    let navbar=document.getElementById("my_navbar");
+    navbar.innerHTML=nav();
+
+   
+</script> -->
+
+
+<script>
+    let da=document.getElementById('dav');
+    da.addEventListener('click',()=>{
+        rampur()
+    });
+
+    function rampur(){
+        window.location.href='./kids/girl/0_24Months.html'
+    }
+</script>

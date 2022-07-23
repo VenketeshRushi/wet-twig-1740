@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/art_navbar.css">
+    <link rel="stylesheet" href="styles/art.css">
+    <link rel="stylesheet" href="/components.sachin/navbar.css">
+    <link rel="stylesheet" href="/components.sachin/footer.css">
+    <title>0_24Months</title>
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <nav id="my_navbar"></nav>
+
+    <div id="main">
+      <p><a href="artsHome.html">HOME / COLLABORATIONS / NEW ARRIVALS</a></p>
+      <img
+        id="img"
+        src="https://www.yoox.com/images/yoox80/banners/5628_1_Summer_TOP_ROW.jpg?634485886601286852"
+        alt=""
+      />
+
+      <div id="filt">
+        <a href="art.html">ART |</a>
+        <a href="design.html">DESIGN</a>
+        <a href="collabration.html">COLLABORATIONS</a>
+      </div>
+
+      <hr />
+      <div id="cantnaier"></div>
+    </div>
+    <footer id="footer1"></footer>
+  </body>
+</html>
+<script type="module">
+    import navbar from "/components.sachin/navbar.js";
+  let nana = document.getElementById('navbar');
+  nana.innerHTML=navbar();
+
+ import nav from "./art_componants/art_navbar.js";
+  let navbar1 = document.getElementById("my_navbar");
+  navbar1.innerHTML = nav();
+
+  import cant from "./art_componants/art_index.js";
+  let cantoiner = document.getElementById('cantnaier');
+  cantoiner.innerHTML=cant();
+
+  import footer from "/components.sachin/footer.js";
+  let foot = document.getElementById('footer1');
+  foot.innerHTML=footer()
+</script>
+<script src="/kids/componeents/fetch.js"></script>

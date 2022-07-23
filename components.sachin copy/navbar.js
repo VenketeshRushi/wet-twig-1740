@@ -1,4 +1,4 @@
-let navbar=()=>{
+function  navbar(){
     return ` <div id="navbar">
     <div id="uppernavbar">
         <div>
@@ -16,9 +16,9 @@ let navbar=()=>{
 <div>
 <div><a href=""><span>WOMEN</span></a></div>
 <div><a href=""><span>MEN</span></a></div>
-<div><a href=""><span>KIDS</span></a></div>
+<div><a href="/kidsHome.html"><span>KIDS</span></a></div>
 <div>/</div>
-<div><a href=""><span>DESIGN+ARTS</span></a></div>
+<div><a href="/arts/artsHome.html"><span>DESIGN+ARTS</span></a></div>
 </div>
 <div id="logo"><a href=""><img src="https://scontent.fdel25-4.fna.fbcdn.net/v/t39.30808-6/275491479_10160473383934416_7227340844438106390_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iC53vcs8CxkAX_fsmbZ&_nc_ht=scontent.fdel25-4.fna&oh=00_AT8Tr0jdMlyhakb3jbvooMuvYEBwN4xPvW4wCnmG9k2WlA&oe=62DCAA34" alt=""></a></div>
 <div id="lower_right">
@@ -32,7 +32,7 @@ let navbar=()=>{
 }
 
 
-export{navbar}
+export default navbar;
 
 // ***use this in your js remember to make a contianer in html with a name (nava)*************
 

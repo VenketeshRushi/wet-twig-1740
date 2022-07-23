@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/art_navbar.css" />
+    <link rel="stylesheet" href="styles/artsHome.css" />
+    <link rel="stylesheet" href="/components.sachin/navbar.css">
+    <link rel="stylesheet" href="/components.sachin/footer.css">
+
+    <title>Art Home</title>
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <nav id="my_navbar">
+      <p><a href="design.html">DESIGN</a></p>
+      <p><a href="art.html">ART</a></p>
+      <p><a href="collabration.html">COLLABORATIONS</a></p>
+    </nav>
+
+    <div id="img1">
+      <div>
+        <a href="art.html"
+          ><img
+            src="https://www.yoox.com/images/yoox80/banners/6769_1_MultiformProd_TOP1.jpg?634485886601286852#width=890&height=648"
+            alt=""
+        /></a>
+      </div>
+      <div>
+        <a href="design.html"
+          ><img
+            src="https://www.yoox.com/images/yoox80/banners/6769_2_Summer_TOP2.jpg?634485886601286852#width=431&height=450"
+            alt=""
+        /></a>
+        <h1 id="img_tag">BUBBLY PERSONALTY</h1>
+        <p id="img_p">The Perfect Pieces to freshen up your home</p>
+      </div>
+    </div>
+
+    <h1 id="head_title">
+      The concept of fluidity has become a guiding principle in how the new
+      generations redefine the world and experience it.
+    </h1>
+
+    <a href="design.html"
+      ><img
+        src="https://www.yoox.com/images/yoox80/banners/6769_23_Living_Middle.jpg?634485886601286852#width=897&height=615"
+        alt=""
+        id="center_img"
+    /></a>
+
+    <div>
+      <h1 id="caregy">CARAZY MOOD</h1>
+      <p id="para">The new Photoshoot by living carrir</p>
+    </div>
+
+    <div id="main">
+      <div id="lal1">
+        <a href="design.html"
+          ><img
+            src="https://www.yoox.com/images/yoox80/banners/6769_1_GenzDesign_Compo01.jpg?634485886601286852#width=431&height=450"
+            alt=""
+            id="center_img"
+        /></a>
+
+        <div>
+          <h1 id="caregy">IN MY ROOM</h1>
+          <p id="para">The new Photoshoot by living carrir</p>
+        </div>
+
+        <a href="design.html"
+          ><img
+            src="https://www.yoox.com/images/yoox80/banners/6769_2_PickedByNina_Compo2.gif?634485886601286852#width=542&height=542"
+            alt=""
+            id="center_img"
+        /></a>
+
+        <div>
+          <h1 id="caregy">PICKED BY NINA X YOOX</h1>
+          <p id="para">The new Photoshoot by living carrir</p>
+        </div>
+      </div>
+      <div id="lal2">
+        <a href="design.html"
+          ><img
+            src="https://www.yoox.com/images/yoox80/banners/6769_2_Seletti_Compo3.jpg?634485886601286852#width=720&height=700"
+            alt=""
+            id="center_img"
+        /></a>
+
+        <div>
+          <h1 id="caregy">SELETTI</h1>
+          <p id="para">The new Photoshoot by living carrir</p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer1"></footer>
+  </body>
+</html>
+<script type="module">
+    import navbar from "/components.sachin/navbar.js";
+  let nana = document.getElementById('navbar');
+  nana.innerHTML=navbar();
+
+  import footer from "/components.sachin/footer.js";
+  let foot = document.getElementById('footer1');
+  foot.innerHTML=footer()
+</script>
