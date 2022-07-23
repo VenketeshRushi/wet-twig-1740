@@ -90,4 +90,4 @@ let footer=()=>{
 <div>LEGAL AREA / PRIVACY POLICY</div>
       </div>`
 }
-export {footer}  
+export default footer
