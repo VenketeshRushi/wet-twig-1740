@@ -14,8 +14,8 @@ function  navbar(){
     </div>
     <div id="lowernavbar">
 <div>
-<div><a href=""><span>WOMEN</span></a></div>
-<div><a href=""><span>MEN</span></a></div>
+<div><a href="women.html"><span>WOMEN</span></a></div>
+<div><a href="mens.html"><span>MEN</span></a></div>
 <div><a href="/kidsHome.html"><span>KIDS</span></a></div>
 <div>/</div>
 <div><a href="/arts/artsHome.html"><span>DESIGN+ARTS</span></a></div>
