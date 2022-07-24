@@ -2,15 +2,17 @@ import  navbar  from "../../components.sachin/navbar.js";
 document.getElementById("nav").innerHTML=navbar()
 let view = document.getElementById("view_list")
 
-let poduct = JSON.parse(localStorage.getItem("cart")) || [];
+let poduct = JSON.parse(localStorage.getItem("cartproduct")) || [];
 
 let append = () => {
     view.innerHTML = null;
-    array.forEach((el) => {
+    poduct.forEach((el) => {
         let img_div = document.createElement("div");
         img_div.setAttribute("id", "img");
         let img = document.createElement("img");
-        img.src = el.img;
+        img.src = el.image;
+        img.style.width='200px'
+        img.style.height='250px'
         img_div.append(img);
 
         let content = document.createElement("div");
@@ -56,11 +58,12 @@ let append = () => {
     });
 }
 let recent = document.getElementById("recenty_view");
-// append()
+append()
 let most = () => {
     data.forEach((el) => {
         let img = document.createElement("img");
-        img.src = el.img;
+        img.src = el.image||"https://" + el.imageUrl
+
 
         let title = document.createElement("h3");
         title.innerText = el.title;

@@ -4,6 +4,7 @@ width: 70%;
 height: auto;
 /* border: 1px solid red; */
 margin: auto;
+padding-top: 4%;
 }
 #heading{
     margin-left: 30%;
@@ -25,7 +26,7 @@ border: none;
 }
 #top>div>a{
     margin-top: 15px;
-    text-decoration:;
+    
     color: black;
     font-size: 16px;
     display: flex;

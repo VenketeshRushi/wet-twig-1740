@@ -197,7 +197,7 @@
       box.addEventListener("click", () => {
         cartarr.push(element);
         localStorage.setItem("cartproduct", JSON.stringify(cartarr));
-        //window.location.reload();
+        window.location.href='./view/view.html';
       });
       box.append(img, title, price);
       container.append(box);

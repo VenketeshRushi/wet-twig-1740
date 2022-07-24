@@ -66,8 +66,8 @@ fetch('https://asos2.p.rapidapi.com/products/v2/list?store=US&offset=0&categoryI
   };
 
   let viewdata = (el) => {
-    localStorage.setItem("view", JSON.stringify(el));
-    window.location.href = "view.html";
+    localStorage.setItem("cartproduct", JSON.stringify(el));
+    window.location.href = "/view/view.html";
   };
 
 //   let price = document.getElementById("price");

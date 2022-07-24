@@ -7,8 +7,8 @@ function  navbar(){
         </div>
         <div><span>FREE STANDARD SHIPPING ON ORDERS OVER $100</span></div>
         <div id="right">
-           <div><img src="https://cdn0.iconfinder.com/data/icons/glyphpack/30/pencil-512.png" alt=""><a href=""> REGISTER</a></div>&nbsp;&nbsp;&nbsp;&nbsp;
-           <div><img src="https://seekicon.com/free-icon-download/lock-open_3.svg" alt=""><a href=""> LOGIN</a></div>
+           <div><img src="https://cdn0.iconfinder.com/data/icons/glyphpack/30/pencil-512.png" alt=""><a href="../register.html"> REGISTER</a></div>&nbsp;&nbsp;&nbsp;&nbsp;
+           <div><img src="https://seekicon.com/free-icon-download/lock-open_3.svg" alt=""><a href="../login.html"> LOGIN</a></div>
             
         </div>
     </div>
@@ -24,7 +24,7 @@ function  navbar(){
 <div id="lower_right">
 <div id="search"><a href=""><img  src="https://www.freepnglogos.com/uploads/search-png/search-icon-endless-icons-33.png" alt=""></a></div>
 <div id="heart" ><a href=""><img src="https://t4.ftcdn.net/jpg/02/13/71/41/240_F_213714173_zx3pF8cy6yFFghIQ3NldmGpnx1pmPTBF.jpg" alt=""></a></div>
-<div  id="cart"><a href=""><img 
+<div  id="cart"><a href="../payment.html"><img 
     src="https://mpng.subpng.com/20190220/arq/kisspng-computer-icons-scalable-vector-graphics-shopping-b-bag-svg-png-icon-free-download-567486-onlinew-5c6d7568d93121.4013062715506773528896.jpg" alt=""></a></div>
 </div>
     </div>

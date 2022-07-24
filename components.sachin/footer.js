@@ -39,7 +39,7 @@ function footer(){
 <div><input type="checkbox"></div>
 <div>I consent to receive YOOX newsletters via email. For further information, please consult the Privacy Policy.</div>
 </div>  
-<button>SIGNUP</button>              
+<button><a href="../signup.html">SIGNUP</a></button>              
 </div>
 
       <div>

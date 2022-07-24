@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="./components.sachin/footer.css">
+    <link rel="stylesheet" href="./components.sachin/navbar.css">
     
 </head>
 <body>
+    <nav id="navbar"></nav>
    <div id="mainbox">
  
         <div id="top">
@@ -80,5 +83,16 @@
                     
             </div>
 </div>
+
+<footer id="footer1"></footer>
 </body>
 </html>
+<script type="module">
+    import navbar from "/components.sachin/navbar.js";
+let nana = document.getElementById('navbar');
+nana.innerHTML=navbar();
+
+import footer from "/components.sachin/footer.js";
+let foot = document.getElementById('footer1');
+foot.innerHTML=footer()
+</script>
