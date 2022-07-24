@@ -1,0 +1,147 @@
+/* //////////////////////----box1----///////////////////// */
+#box1{
+    height: 150px;
+    background-color: #f3f3f3;
+    margin: auto;
+    text-align: center;
+}
+#box1>h1{
+    font-weight: 700;
+    margin-bottom: -10px;
+    display: block;
+    font-size: 18px;
+    font: bold;
+    color: #333;
+    margin-top: 10px;
+}
+#box1>h2{
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    
+}
+#box1>p{
+    font-weight: 300;
+     display: block;
+    font-size: 14px;
+    font: bold;
+    color: #333;
+    margin-bottom: -1px;
+}
+#box1>a{
+    font-weight: 400;
+    display: block;
+    font-size: 14px;
+    /* font: bold; */
+    color:inherit;
+}
+/* ////////////////////////////////////////// */
+#discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+/* /////////////////////////////////////// */
+/* <------------------------form---------------------> */
+#form{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+#form>p{
+    
+    text-align: center;
+}
+#form>div>a{
+    /* border: 1px solid red; */
+    display: flex;
+   margin: auto;
+    height: 40px;
+    width: 400px;
+    
+}
+#form>div>a>img{
+    display: flex;
+    margin: auto;
+    height: 30px
+   
+}
+#google{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: 35px;
+    width: 400px;
+    border: 0.3px solid lightgray;
+    margin-bottom: 50px;
+    
+}
+#facebook{
+    background-color:#4267B2;
+    height: 40px;
+    width: 400px;
+    display: flex;
+   margin: auto;
+   margin-bottom: 10px;
+}
+/* ///////////////////<---------emailform------>/////// */
+#emailform{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+#emailform>div>input{
+    display: flex;
+margin: auto;
+height: 40px;
+width: 400px;
+font: bold;
+color: #333;
+border: none;
+padding: 4px 19px;
+background-color:#f6f6f6 ;
+border-bottom: 2px solid #f6f6f6;
+/* text-align: center; */
+}
+#emailform>p{
+text-align: center;
+margin-left: -150px;
+font-size:12px ;
+}
+#raidiobtn{ 
+    margin: auto;
+    display: flex;  
+    
+}
+#raidiobtn>div{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    height: 44px;
+    width:440px ;
+    align-items: center;
+    justify-content:;
+    background-color:#f6f6f6 ;
+    border-bottom: 2px solid #f6f6f6;
+    margin-bottom:15px ;
+}
+#form>div>button{
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 400px;
+    /* background-color:#f6f6f6 ; */
+    border-bottom: 2px solid #f6f6f6;
+    border: none;
+    color:white;
+    font-size: 18PX;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
