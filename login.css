@@ -1,0 +1,103 @@
+/* <------------LOGIN BOX---------------> */
+#box{
+    display: flex;
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 55%;
+    height: auto;
+    justify-content:space-between;
+    /* background-color: whitesmoke; */
+
+}
+#box>div{
+    /* border: 1px solid blue; */
+    width: 47%;
+}
+#box>div>p{
+    color:#333;
+    font-size: .8125rem;
+    display: block;
+    text-align: center;
+}
+#box>div>div{
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px ;
+}
+#box>div>div>input{
+height: 40px;
+width: 80%;
+background-color: #f3f3f3;
+border: none;
+color: black;
+}
+#forgt>a>p{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -15px;
+    justify-content:flex-end;
+    color: #333;
+    font-size: 14px;
+   
+}
+#checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#checkbox>div{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rightbutn>button{
+    height: 40px;
+    width: 80%;
+    border: none;
+    color: white;
+    background-color: #333;
+}
+/* <------------FACEWBOOK GOOGLE BOX--------------> */
+#google{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 370px;
+    border: 0.3px solid lightgray;
+    margin-bottom: 50px;
+    
+}
+#facebook{
+    background-color:#4267B2;
+    height: 45px;
+    width: 370px;
+    display: flex;
+   margin: auto;
+   margin-bottom: 10px;
+}
+#leftbox>div>a>img{
+    margin-top:15px;
+    display: flex;
+    margin: auto;
+    height: 38px
+   
+}
+#button{
+    border: 2px solid grey;
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+    margin-left: 15px;
+   
+}
+#button>a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin-top: 20px;
+}

@@ -47,8 +47,8 @@
 /* /////////////////////////////////////// */
 /* <------------------------form---------------------> */
 #form{
-    border: 1px solid red;
-    height: 300px;
+    /* border: 1px solid red; */
+    height: auto;
     width: 100%;
     margin: auto;
 }
@@ -61,8 +61,8 @@
     display: flex;
    margin: auto;
     height: 40px;
-    width: 300px;
-    background-color:#4267B2;
+    width: 400px;
+    
 }
 #form>div>a>img{
     display: flex;
@@ -70,7 +70,78 @@
     height: 30px
    
 }
-#form>button:hover{
-    background-color:#4267B2 ;
+#google{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: 35px;
+    width: 400px;
+    border: 0.3px solid lightgray;
+    margin-bottom: 50px;
+    
+}
+#facebook{
+    background-color:#4267B2;
+    height: 40px;
+    width: 400px;
+    display: flex;
+   margin: auto;
+   margin-bottom: 10px;
+}
+/* ///////////////////<---------emailform------>/////// */
+#emailform{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+#emailform>div>input{
+    display: flex;
+margin: auto;
+height: 40px;
+width: 400px;
+font: bold;
+color: #333;
+border: none;
+padding: 4px 19px;
+background-color:#f6f6f6 ;
+border-bottom: 2px solid #f6f6f6;
+/* text-align: center; */
+}
+#emailform>p{
+text-align: center;
+margin-left: -150px;
+font-size:12px ;
+}
+#raidiobtn{ 
+    margin: auto;
+    display: flex;  
+    
+}
+#raidiobtn>div{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    height: 44px;
+    width:440px ;
+    align-items: center;
+    justify-content:;
+    background-color:#f6f6f6 ;
+    border-bottom: 2px solid #f6f6f6;
+    margin-bottom:15px ;
+}
+#form>div>button{
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 400px;
+    /* background-color:#f6f6f6 ; */
+    border-bottom: 2px solid #f6f6f6;
+    border: none;
+    color:white;
+    font-size: 18PX;
+    background-color: black;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
 }
